@@ -1,7 +1,37 @@
-.hero_section, .footer {
+body {
+    margin: 0;
+}
+
+.hero-section, .footer, .nav-bar {
     background-color: #1F2937;
 }
 
-.quote_section {
+.quote-section {
     background-color: #E5E7EB;
 }
+
+.nav-content h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    /*margin-top: 0; /*deletes the white space created at the top of the site */
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
