@@ -107,8 +107,10 @@ button { /*Basic style to all buttons*/
 
 .all_info { /*displays the cards in row format*/
     display: flex;
+    justify-content: center;
     padding-top: 16px;
     gap: 56px;
+    width: 75%;
 }
 
 .img_border { /*Creates the image border*/
@@ -124,4 +126,78 @@ button { /*Basic style to all buttons*/
     align-items: center;
     text-align: center;
     width: 200px;
+}
+
+.quote-section { /*Centers the content in the quote section*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote { /*Styles the quote text*/
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 75%;
+    margin-bottom: 0;
+}
+
+.quote_author { /*Styles and aligns the quote author text*/
+    font-weight: 800;
+    font-size: 32px;
+    width: 75%;
+    text-align: end;
+    margin-top: 0;
+}
+
+.content { /*Centers the content and places it in a column instead of row*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 64px 300px;
+}
+
+.cta-section { /*Centers the content inside the cta section and adds whitespace at top and bottom to space from other sections*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#cta_banner { /*Styles the cta banner*/
+    background-color: #3882F6;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+
+.left_text > p { /*Styles the text in the cta section*/
+    color: #F9FAF8;
+    margin: 4px;
+}
+
+#bold { /*Makes a part of the text bigger than the rest*/
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#cta_btn { /*Styles the button in cta banner*/
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 0 56px;
+}
+
+.footer { /*Centers the stuff in the footer*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > p { /*Styles the text in the footer*/
+    color: #F9FAF8;
+    margin: 24px;
 }
